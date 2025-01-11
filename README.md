@@ -20,5 +20,5 @@ GET http://localhost:8005/api/v1/crypto/stats?coin=bitcoin
 
 
 
+##Endpoints
 
-dshbgskjbfkjds
