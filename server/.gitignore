@@ -1,0 +1,41 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+*.log.*
+
+# Build output
+/dist/
+/build/
+
+# Environment variable files
+.env
+.env.local
+.env.*.local
+
+# Dependency directories (if any)
+jspm_packages/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.idea/
+.vscode/
+
+# npm package lock files (optional)
+package-lock.json
+yarn.lock
+
+# Test coverage directory
+coverage/
+
+# Temporary files created by editors
+*.swp
+*.swo
+
+# Other files you don't want to commit
+*.bak
+*.tmp
