@@ -19,3 +19,16 @@ Fetches the latest stats for a specified cryptocurrency, including its price, ma
 GET http://localhost:8005/api/v1/crypto/stats?coin=bitcoin
 
 
+### 2. **Get Cryptocurrency Deviation** (`/deviation`)
+
+Fetches the standard deviation of the price of a specified cryptocurrency based on the last 100 records.
+
+- **URL**: `/api/v1/crypto/deviation`
+- **Method**: `GET`
+- **Query Parameters**:
+  - `coin` (required): The cryptocurrency for which you want to calculate the standard deviation. Possible values: `bitcoin`, `ethereum`, `matic-network`.
+
+#### Example Request:
+
+```bash
+GET http://localhost:8005/api/v1/crypto/deviation?coin=bitcoin
